@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Asma-ul-Husna — 99 Names of Allah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="top">
+    <div class="arabic-title">أَسْمَاءُ اللهِ الْحُسْنَى</div>
+    <div class="subtitle">THE BEAUTIFUL NAMES OF ALLAH</div>
+    <div class="decor">✦ ❈ ✦</div>
+  </div>
+
+  <div class="card">
+
+    <div class="number" id="number">01 / 99</div>
+
+    <div class="name-ar" id="arabic">
+      الرَّحْمَنُ
+    </div>
+
+    <div class="trans" id="trans">
+      Ar-Rahman
+    </div>
+
+    <div class="meaning" id="meaning">
+      The Most Merciful
+    </div>
+
+    <div class="urdu" id="urdu">
+      نہایت مہربان
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress">
+        <div class="bar" id="bar"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="voice">
+
+    <select id="voiceSelect">
+    </select>
+
+    <button onclick="speak()">
+      🔊 Voice
+    </button>
+
+    <button onclick="toggleAuto()" id="autoBtn">
+      ▶ Start Voice
+    </button>
+
+  </div>
+
+  <div class="hint">
+    پہلی بار "Start Voice" دبائیں، پھر 99 نام خود آواز کے ساتھ چلیں گے۔
+  </div>
+
+  <div class="controls">
+
+    <button onclick="prev()">
+      ← Previous
+    </button>
+
+    <button class="play" onclick="speak()">
+      🔊 Play
+    </button>
+
+    <button onclick="next()">
+      Next →
+    </button>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
